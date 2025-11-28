@@ -43,7 +43,7 @@ Khác với các công cụ tóm tắt truyền thống, hệ thống áp dụng
 
 -----
 
-## 🛠 3. Kiến trúc Hệ thống & Công nghệ (Tech Stack)
+## 3. Kiến trúc Hệ thống & Công nghệ (Tech Stack)
 
 Dự án áp dụng mô hình phát triển **AI-Assisted Development** (Sử dụng AI để hỗ trợ code cho team Non-tech).
 
@@ -57,7 +57,7 @@ Dự án áp dụng mô hình phát triển **AI-Assisted Development** (Sử d�
 
 -----
 
-## 🗄 4. Thiết kế Cơ sở Dữ liệu (Database Schema)
+## 4. Thiết kế Cơ sở Dữ liệu (Database Schema)
 
 Hệ thống tuân thủ chuẩn hóa **3NF**, tập trung vào việc quản lý phân mảnh tài liệu.
 
