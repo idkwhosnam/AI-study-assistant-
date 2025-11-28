@@ -1,17 +1,8 @@
 # AI-study-assistant-
 Hệ thống hỗ trợ học tập thông minh tích hợp AI &amp; Quản lý thời gian Pomodoro
-Đây là bản dự thảo nội dung **README.md** chuyên nghiệp, đầy đủ và được cấu trúc chặt chẽ để bạn đưa lên GitHub.
-
 Nội dung này tổng hợp toàn bộ các điểm sáng về nghiệp vụ, kỹ thuật, và mô hình kinh doanh mà chúng ta đã thảo luận, được trình bày dưới ngôn ngữ của chuyên ngành **Hệ thống Thông tin Quản lý (MIS)**.
 
 -----
-
-### Cách sử dụng:
-
-1.  Tạo file tên là `README.md` trong thư mục dự án.
-2.  Copy toàn bộ nội dung bên dưới vào.
-3.  Commit lên GitHub và gửi link cho team.
-
 -----
 
 # AI Study Assistant Platform (Dự án Tốt nghiệp MIS)
@@ -99,8 +90,27 @@ Dự án áp dụng mô hình lai (Hybrid) để tối đa hóa doanh thu và gi
   * **Rủi ro tài chính:** Thấp. Vốn khởi điểm \~3.000.000 VNĐ.
 
 -----
+## 6. Phân tích Chiến lược (SWOT Analysis)
 
-## 6. Phân chia Nhân sự (Team Roles)
+### Strengths (Điểm mạnh)
+* **Chiến lược "Chunking" thông minh:** Khắc phục được nhược điểm chờ đợi lâu của các công cụ AI khác bằng cách xử lý từng chương (On-demand), giúp người dùng học ngay lập tức.
+* **Chi phí tối ưu:** Sử dụng Model GPT-4o-mini kết hợp cấu trúc Database lưu đệm (Caching), giảm chi phí vận hành xuống mức tối thiểu (~50 VNĐ/lượt xử lý).
+* **Tính tích hợp (All-in-one):** Giải quyết trọn vẹn quy trình học tập: *Tài liệu thô -> Tóm tắt -> Ghi nhớ (Flashcard) -> Tập trung (Pomodoro)* trên một nền tảng duy nhất.
+
+### Weaknesses (Điểm yếu)
+* **Hạn chế về Tech-stack:** Đội ngũ phát triển là sinh viên MIS (Non-tech), phụ thuộc vào AI để viết code, có thể gặp khó khăn khi debug các lỗi hệ thống phức tạp.
+* **Phụ thuộc bên thứ 3:** Hoàn toàn phụ thuộc vào API của OpenAI. Nếu OpenAI bảo trì hoặc thay đổi chính sách giá, hệ thống sẽ bị ảnh hưởng trực tiếp.
+
+### Opportunities (Cơ hội)
+* **Thị trường Ngách (Niche Market):** Chưa có nhiều công cụ AI tập trung sâu vào *Giáo trình Đại học* tại Việt Nam (thường rất dài và đặc thù).
+* **Mô hình B2B2C:** Dễ dàng hợp tác với các CLB học thuật, Giáo viên hoặc Trung tâm luyện thi để phân phối tài khoản sỉ (Bulk licensing).
+* **Xu hướng EdTech:** Sinh viên ngày càng sẵn sàng chi trả các khoản tiền nhỏ (Micro-payment) để tiết kiệm thời gian ôn thi.
+
+### Threats (Thách thức)
+* **Rào cản gia nhập thấp:** Các đối thủ hoặc team dev chuyên nghiệp có thể sao chép mô hình và tính năng này trong thời gian ngắn.
+* **Tính mùa vụ (Seasonality):** Doanh thu có thể biến động mạnh, chỉ cao vào các tháng thi (tháng 5-6, tháng 12-1) và sụt giảm vào các tháng nghỉ hè/học kỳ chính.
+-----
+## 7. Phân chia Nhân sự (Team Roles)
 
 Mô hình làm việc Agile cho team 5 người (Non-tech Founder):
 
@@ -112,7 +122,7 @@ Mô hình làm việc Agile cho team 5 người (Non-tech Founder):
 
 -----
 
-## 7. Lộ trình Triển khai (Roadmap)
+## 8. Lộ trình Triển khai (Roadmap)
 
   * **Tuần 1-2:** Thiết lập Database trên Supabase, Dựng khung Web cơ bản (Upload file).
   * **Tuần 3:** Xây dựng logic tách file (Chunking) và hiển thị mục lục.
